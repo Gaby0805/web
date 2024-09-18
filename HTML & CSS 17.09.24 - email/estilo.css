@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;}
+
+.cabecalho {
+    background-color: #292525; /* Cor de fundo vermelho claro */
+    color: rgb(43, 39, 39); /* Cor do texto branco */
+    margin: 10px;
+    text-align: center; 
+    height: 150px; }
+.menu{
+background-color: rgb(16, 10, 38);
+height: 100%;
+text-align: center;
+margin: 10px;
+border-top-left-radius: 12px; 
+border-top-right-radius: 12px;
+border-top: 12px solid rgb(207, 218, 53);
+border-right: 12px; 
+border-left: 12px;}
+.principal{
+    background-color: rgb(36, 38, 36);
+    height: 250px;
+    text-align: center;
+    margin: 10px;  }
+.esquerda{
+        background-color: rgb(49, 54, 49);
+        height: 250px;
+        text-align: center;
+        margin: 10px;
+    float: left;  
+    width: 48%;
+}
+.direita{
+            background-color: rgb(57, 52, 56);
+            height: 250px;
+            text-align: center;
+            margin: 10px;
+            width: 48%;
+        float: right;  }
+        .rodape{
+            background-color: rgb(57, 52, 56);
+            height: 250px;
+            text-align: center;
+            margin: 10px;
+            
+        float: right;  }      
+           
+    
+    
+    .navbar {
+        background-color: #333;
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-item {
+        margin: 0;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 14px 20px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .nav-link:hover {
+        background-color: #575757;
+    }
+    
+    /* Responsividade */
+    @media (max-width: 768px) {
+        .nav-list {
+            flex-direction: column;
+        }
+    
+        .nav-link {
+            padding: 10px;
+        }
+    }
+    
+
