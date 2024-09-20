@@ -1,14 +1,16 @@
 body {
+    border: 1px solid black;
     font-family: Arial, sans-serif;}
 
 .cabecalho {
-    background-color: #292525; /* Cor de fundo vermelho claro */
     color: rgb(43, 39, 39); /* Cor do texto branco */
     margin: 10px;
     text-align: center; 
-    height: 150px; }
+    height: 150px;
+    border: 1px solid black;
+}
+    
 .menu{
-background-color: rgb(16, 10, 38);
 height: 100%;
 text-align: center;
 margin: 10px;
@@ -16,34 +18,37 @@ border-top-left-radius: 12px;
 border-top-right-radius: 12px;
 border-top: 12px solid rgb(207, 218, 53);
 border-right: 12px; 
+border: 1px solid black;
 border-left: 12px;}
 .principal{
-    background-color: rgb(36, 38, 36);
     height: 250px;
     text-align: center;
+    border: 1px solid black;
     margin: 10px;  }
-.esquerda{
-        background-color: rgb(49, 54, 49);
+    .esquerda{
         height: 250px;
         text-align: center;
         margin: 10px;
     float: left;  
     width: 48%;
+    border: 1px solid black;
 }
 .direita{
-            background-color: rgb(57, 52, 56);
             height: 250px;
             text-align: center;
             margin: 10px;
+            border: 1px solid black;
             width: 48%;
         float: right;  }
         .rodape{
-            background-color: rgb(57, 52, 56);
-            height: 250px;
+            height: 500;
+            border: 1px solid black;
+            width: 100%;
             text-align: center;
-            margin: 10px;
+            margin: 10px,10px,10px,10px;
+
             
-        float: right;  }      
+        float: right  }      
            
     
     
