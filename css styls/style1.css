@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../imgs/fundo.jpg");
+    background-size: cover;
+}
+nav{
+    background-color: #fff;
+    margin-top: 5%;
+    margin-left: 19%;
+    display: flex;
+    width: 60%;     
+
+
+}

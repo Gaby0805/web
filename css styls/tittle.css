@@ -1,0 +1,10 @@
+.name_top{
+    background: rgba(144, 113, 94, 0.8);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
