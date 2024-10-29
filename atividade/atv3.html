@@ -1,0 +1,59 @@
+<!-- 
+3 - De acordo com a questão 2 escreva em linguagem css para estilizar uma cor de
+fundo para as 03 divisões, inserir bordas, cor, margem de 5 pixels, fazer com que
+fiquem na mesma linha e inserir uma imagem na div 03 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+         
+            width: 250px;
+            height: 250px;
+            margin: 5px;
+        }
+        .conteiner{
+            display: flex;
+            width: 49%;
+
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .div1{
+            border: 5px solid;
+            background-color: black;
+        }
+        .div2{
+            border: 5px solid;
+             background-color: blueviolet;}
+        .div3{
+            border: 5px solid;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+
+        <div class="div1">
+            <p>a</p>
+            
+        </div>
+        <div class="div2">
+            <p>2</p>
+            
+        </div>
+        <div class="div3">
+            <img src="../imgs/ia.png">
+            
+        </div>
+    </div>
+
+</body>
+</html>

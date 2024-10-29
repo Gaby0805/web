@@ -3,13 +3,76 @@ body{
     margin: 0;
     background-image: url("../imgs/fundo.jpg");
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
-    background-color: #fff;
-    margin-top: 5%;
-    margin-left: 19%;
+    padding: 8px;
+    background-color: #ffffff50;
+    margin-top: 5%;;
+    margin-left: 32%;
+    width: 35%;
+    height: 200px;    
     display: flex;
-    width: 60%;     
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav div{
+border: solid;
+border-color: #1a1818b7;
+border-radius: 20px;
+padding: 10px;
+margin-left: 4px;
+transition: transform 1.0s;
+}
+nav div:hover{
+    background: #725353;
+    transform: scale(1.5);
+}
+nav img{
+    
+    margin-left: 16px;
+    padding:  1px;
+    width: 80% ;
+    height: 90%;
+    
+}
+.autor{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background: rgba(144, 113, 94, 0.8);
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+    border-radius: 30px;
+    padding: 10px;
+}
+.autor img{
+    border-radius: 100%;
+    border: black solid;
+}
+h2{
+    font-size: 30px;
 
 
+}
+.autor li{
+padding-left: 10px;
+
+}
+li{
+    list-style: none;
+    
+}
+.rodape{
+    background: rgba(144, 113, 94, 0.8);
+    display: flex;
+    width: 20%;
+    border-top-right-radius: 20px;  
+    
+}
+a{
+    text-decoration: none;
 }
